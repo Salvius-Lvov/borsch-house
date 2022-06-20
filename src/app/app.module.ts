@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { BackgrondComponent } from './backgrond/backgrond.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BackgrondComponent
   ],
   imports: [
     BrowserModule
